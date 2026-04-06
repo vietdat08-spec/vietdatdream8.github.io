@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+     font-family: "Inter", sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+nav img{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+.search {
+ 
+ position: relative;
+ top: 150px;
+width: 100%;
+display: flex;
+justify-content:center;
+height: auto;
+ 
+}
+.search-item{
+    display: flex;
+    justify-content: center;
+    background-color:#6b6562;
+    width: 70%;
+    box-shadow: 0 .25rem #00000040,inset -.25rem -.25rem #0000004d,inset .25rem .25rem #fff3;
+   border:.125rem solid #313233 ; 
+     
+}
+.search-item div{
+    width: 100%;
+    padding: 10px;
+}
+.search-item div .wel{
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
+
+.search-item h1{
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+}
+input{
+    height: 40px;
+   padding: 20px;
+}
+.button-search p{
+ font-size: 15px;
+ font-weight: bold;
+ color: #928a87;
+ margin-bottom: 10px;
+}
+
+
+.links-help{
+    position: relative;
+    top: 200px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    
+}
+.row .menu-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.links{
+    width: 300px;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: underline;
+    color: rgb(32, 169, 17);
+    font-size: 20px;
+    
+}
+.picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    
+}
+.picture img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.links-socical{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 400px;
+}
+.links-socical div h2 {
+    text-align: center;
+}
+.links-socical div ul{
+    justify-content: center;
+    display: flex;
+    width: 300px;    
+    flex-wrap: wrap;
+}
+.links-socical div ul li{
+   margin: 10px;
+}
+
+footer{
+        background: #343434;
+        padding-top: 50px;
+         position: relative;
+        top: 700px;
+    }
+    .container-fluid{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding: 0;
+        
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: greenyellow;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    .list a{
+        text-decoration: none;
+        color: white;
+    }
+    .foot:hover{
+        color: greenyellow;
+    }
+    .social-icons i:hover{
+        color: greenyellow;
+    }
+    .bottom-bar{
+        background: greenyellow;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: white;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+    .list li a{
+        color: white;
+    }

@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+    <!-- link swiperJS css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="nav-bar">
+                        <i class="fa-solid fa-bars sidebarOpen"></i>
+                        <span class="logo1"><a href="#"><img src="./img/Global-Header_MCCB-Logo_300x51.svg"
+                                    alt=""></a></span>
+                        <div class="menu">
+                            <div class="logo-toggle">
+                                <span class="logo2"><a href="#"><img src="./img/Global-Header_MCCB-Logo_300x51.svg"
+                                            alt=""></a>
+                                </span>
+                                <i class="fa-solid fa-x sidebarClose"></i>
+
+                            </div>
+                            <ul class="nav-links">
+                                <li><a href="#storemc"><button>GAMES</button></a>
+                                </li>
+                                <li><a href="./shop.html"><button>SHOP</button></a></li>
+                                <li><a href="./news.html"><button>NEWS</button></a></li>
+                                <li> <a href="./support.html"><button>SUPPORT</button></a>
+                                </li>
+                                <li> <button class="account1"> <a href="./account.html"
+                                            style="text-decoration: none; color: aliceblue;">ACCOUNT</a></button></li>
+                                <li> <input class="search-drop" type="text" placeholder="Search........."></li>
+
+
+                            </ul>
+                        </div>
+                        <div class="searchBox">
+                            <div class="searchToggle">
+
+                                <i id="search" class="fa-solid fa-magnifying-glass"></i>
+
+
+                                <i id="cancel" class="fa-solid fa-x"></i>
+
+                            </div>
+                            <div>
+                                <ul class="nav-links">
+                                    <li> <button class="account2"><a href="./account.html"
+                                                style="text-decoration: none; color: aliceblue;">ACCOUNT</a></button>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="search-field">
+                                <input class="search-item" type="text" placeholder="Search........."
+                                    style="padding-left: 10px;">
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <script src="./js/script.js"></script>
+    </header>
+    <Section class="carousel-slide">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner mt-3 ">
+                <div class="carousel-item active">
+                    <img src="./img/Minecraft_TripleBundle_NetHomepage_2560x932.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nó rất hay</h5>
+
+
+                        <em>Người chơi 1</em>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/MCV_SummerDrop_Hero_DotNet_Homepage_2560x932.jpg" class="d-block  w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bản mod thật thú vị </h5>
+
+
+                        <em>Người chơi 2</em>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Minecraft_HTTYD_Net_Homepage_2560x932.jpg" class="d-block  w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Thật vui khi có bạn bè chơi cùng</h5>
+
+
+                        <em>Người chơi 3</em>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/LBE_2560x932_v3 (1).webp" class="d-block   w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> Quá nhiều lựa chọn tôi nên chơi phiên bản nào đây </h5>
+                        <em> Người chơi 3</em>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="store-mc" id="storemc" style="background-color: black;">
+
+        <div class="container">
+            <div class="row ">
+                <h1 style="color: aliceblue;">DISCOVER OUR GAMES</h1>
+                <ul style="list-style: none;" class="list-game">
+                    <li>
+                        <a href="./html/minecraftvanilla.html">
+                            <button class="menu-list">
+                                <img src="./img/Homepage_Discover-our-games_MC-Vanilla-KeyArt_864x864.jpg" alt=""
+                                    class="steve" />
+                                <h3 class="name">Minecraft</h3>
+                                <p class="mode">Sandbox Survival,Aventure</p>
+                                <p class="mode">Single-player + Mutiplayer</p>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./html/minecraftdungoen.html">
+                            <button class="menu-list">
+                                <img src="./img/Homepage_Discover-our-games_MC-Dungeons-KeyArt_864x864.webp" alt=""
+                                    class="steve" />
+                                <h3 class="name">Minecraft Dungeons</h3>
+                                <p class="mode">Dungeon Crawl,Action RPG</p>
+                                <p class="mode">Single-player + Mutiplayer</p>
+                            </button>
+                        </a>
+
+
+
+                    </li>
+                    <li>
+                        <a href="./html/legend.html">
+                            <button class="menu-list">
+                                <img src="./img/Homepage_Discover-our-games_MC-Legends-KeyArt_864x864.webp" alt=""
+                                    class="steve" />
+                                <h3 class="name">Minecraft Legends</h3>
+                                <p class="mode">Action RPG,Strategy</p>
+                                <p class="mode">Single-player + Mutiplayer</p>
+                            </button>
+                        </a>
+
+
+
+                    </li>
+                    <li>
+                        <a href="https://education.minecraft.net/en-us">
+                            <button class="menu-list">
+                                <img src="./img/Homepage_Discover-our-games_MC-Education-KeyArt_864x864.avif" alt=""
+                                    class="steve" />
+                                <h3 class="name">Minecraft Education</h3>
+                                <p class="mode">Education,Sandbox Survival,Adventure</p>
+                                <p class="mode">Single-player + Mutiplayer</p>
+                            </button>
+                        </a>
+
+
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="carousel-menu">
+        <div class="store-menu">
+            <h3>Marketplace Add-Ons</h3>
+            <p>Now there are even more ways to change your Bedrock game, your way! Explore the new free and paid
+                add-ons at Minecraft Marketplace today.</p>
+            <button class="byymc">
+                <h4>Explore Marketplace</h4>
+            </button>
+
+        </div>
+        <div class="container swiper">
+            <div class="row-card">
+                <div class="card-wrapper">
+                    <ul class="card-list  swiper-wrapper">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/biomecraftaddon10_Thumbnail_0.jpg" alt="Card Image" class="card-image">
+                                <h2 class="card-title">WINGS Add-On</h2>
+                                <p class="badge">by ChewMingo</p>
+                                <div class="starcoin ">
+                                    <button class="card-button  " id="star">
+                                        <i class="fa-solid fa-star">4</i>
+                                    </button>
+                                    <button class="card-button " id="coin">
+                                        <i class="fa-solid fa-coins">490</i>
+                                    </button>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/BLOCKS_UPDATE_Thumbnail_0.jpg" alt="Card Image" class="card-image">
+                                <h2 class="card-title">WINGS Add-On</h2>
+                                <p class="badge">by ChewMingo</p>
+                                <div class="starcoin ">
+                                    <button class="card-button ">
+                                        <i class="fa-solid fa-star" id="star">4</i>
+                                    </button>
+                                    <button class="card-button " id="coin">
+                                        <i class="fa-solid fa-coins">490</i>
+                                    </button>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/DinosaursAndWeapons_Thumbnails_0.jpg" alt="Card Image"
+                                    class="card-image">
+                                <h2 class="card-title">WINGS Add-On</h2>
+                                <p class="badge">by ChewMingo</p>
+                                <div class="starcoin ">
+                                    <button class="card-button ">
+                                        <i class="fa-solid fa-star" id="star">4</i>
+                                    </button>
+                                    <button class="card-button " id="coin">
+                                        <i class="fa-solid fa-coins">490</i>
+                                    </button>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/vibrant_memories_Thumbnail_0.jpg" alt="Card Image" class="card-image">
+                                <h2 class="card-title">WINGS Add-On</h2>
+                                <p class="badge">by ChewMingo</p>
+                                <div class="starcoin ">
+                                    <button class="card-button ">
+                                        <i class="fa-solid fa-star" id="star">4</i>
+                                    </button>
+                                    <button class="card-button " id="coin">
+                                        <i class="fa-solid fa-coins">490</i>
+                                    </button>
+                                </div>
+
+                            </a>
+                        </li>
+                    </ul>
+                    <div style="color: gray;" id="button-prev" class="swiper-slide-button swiper-button-prev"></div>
+                    <div style="color: gray;" id="button-prev" class="swiper-slide-button swiper-button-next"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- link swiperjs script -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- linking custom script -->
+        <script src="./js/carousel.js"></script>
+
+    </section>
+    <section class="container-menugame">
+        <div class=" row-version">
+            <ul class=" version-menu">
+                <li class="version-links">
+                    <button class="button-one">
+                        <div class=" namegame">
+                            <img src="./img/Homepage_Gameplay-Trailer_MC-Dungeons-logo_300x300.png" alt="">
+                            <p>
+                                Minecraft Dungeons
+                            </p>
+
+                        </div>
+
+                    </button>
+                    <div class="videogame">
+                        <video autoplay controls src="./img/Homepage_Gameplay-Trailer_MC-Dungeons_1080x720.webm">
+                        </video>
+                        <div class="title-list">
+                            <div class="word">
+                                <p>Explore your own unique worlds, survive the night, and create anything you can
+                                    imagine!
+                                </p>
+                                <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                    see
+                                    the full video on YouTube.</p>
+                            </div>
+
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </li>
+                <li class="version-links">
+                    <button class="button-two">
+                        <div class=" namegame">
+                            <img src="./img/Homepage_Gameplay-Trailer_MC-Legends-logo_300x300.webp" alt="">
+                            <p>
+                                Minecraft Legends
+                            </p>
+                        </div>
+
+
+                    </button>
+                    <div class="videogame2">
+                        <video autoplay controls
+                            src="https://www.minecraft.net/content/dam/minecraftnet/games/badger/videos/Homepage_Gameplay-Trailer_MC-Legends_1080x720.webm">
+                        </video>
+
+                        <div class="title-list">
+                            <div class="word">
+                                <p>Explore your own unique worlds, survive the night, and create anything you can
+                                    imagine!
+                                </p>
+                                <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                    see
+                                    the full video on YouTube.</p>
+                            </div>
+
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="version-links">
+                    <button class="button-three">
+                        <div class="namegame ">
+                            <img src="./img/Homepage_Gameplay-Trailer_MC-Education-logo_300x300.avif" alt="">
+                            <p>
+                                Minecraft Education
+                            </p>
+                        </div>
+
+                    </button>
+                    <div class="videogame3">
+                        <video autoplay controls
+                            src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/videos/Homepage_Gameplay-Trailer_MC-EDU_1080x720.webm"></video>
+
+                        <div class="title-list">
+                            <div class="word">
+                                <p>Explore your own unique worlds, survive the night, and create anything you can
+                                    imagine!
+                                </p>
+                                <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                    see
+                                    the full video on YouTube.</p>
+                            </div>
+
+
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="version-links">
+
+                    <button class="button-four">
+                        <div class=" namegame">
+                            <img src="./img/Homepage_Gameplay-Trailer_MC-OV-logo_300x300.png" alt="">
+                            <p>
+                                Minecraft
+                            </p>
+                        </div>
+
+                    </button>
+                    <div class="videogame4">
+                        <video autoplay controls
+                            src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/videos/Homepage_Gameplay-Trailer_MC-OV_1080x720.webm"></video>
+
+                        <div class="title-list">
+                            <div class="word">
+                                <p>Explore your own unique worlds, survive the night, and create anything you can
+                                    imagine!
+                                </p>
+                                <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                    see
+                                    the full video on YouTube.</p>
+                            </div>
+
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+
+
+
+
+        </div>
+        <script src="./js/gameplay.js"></script>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button style="background-color:rgb(49, 46, 46);" class="accordion-button " type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        <img src="./img/Homepage_Gameplay-Trailer_MC-Dungeons-logo_300x300.png" alt="">
+                        <p style="color: azure;">
+                            Minecraft Dungeons
+                        </p>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: rgb(47, 41, 41);">
+                        <div class="word">
+                            <video autoplay controls
+                                src="./img/Homepage_Gameplay-Trailer_MC-Dungeons_1080x720.webm"></video>
+                            <p>Explore your own unique worlds, survive the night, and create anything you can
+                                imagine!
+                            </p>
+                            <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                see
+                                the full video on YouTube.</p>
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button style="background-color:rgb(49, 46, 46);" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        <img src="./img/Homepage_Gameplay-Trailer_MC-Legends-logo_300x300.webp" alt="">
+                        <p style="color: azure;">
+                            Minecraft Legends
+                        </p>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: rgb(47, 41, 41);">
+                        <div class="word">
+                            <video autoplay controls
+                                src="./img/Homepage_Gameplay-Trailer_MC-Dungeons_1080x720.webm"></video>
+                            <p>Explore your own unique worlds, survive the night, and create anything you can
+                                imagine!
+                            </p>
+                            <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                see
+                                the full video on YouTube.</p>
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button style="background-color:rgb(49, 46, 46);" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        <img src="/homework/project/img/Homepage_Gameplay-Trailer_MC-Education-logo_300x300.avif alt="">
+                        <p style=" color: azure;">
+                        Minecraft Education
+                        </p>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: rgb(47, 41, 41);">
+                        <div class="word">
+                            <video autoplay controls
+                                src="./img/Homepage_Gameplay-Trailer_MC-Dungeons_1080x720.webm"></video>
+                            <p>Explore your own unique worlds, survive the night, and create anything you can
+                                imagine!
+                            </p>
+                            <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                see
+                                the full video on YouTube.</p>
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button style="background-color:rgb(49, 46, 46);" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                        aria-controls="collapseFour">
+                        <img src="./img/Homepage_Gameplay-Trailer_MC-OV-logo_300x300.png" alt="">
+                        <p style="color: azure;">
+                            Minecraft
+                        </p>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: rgb(47, 41, 41);">
+                        <div class="word">
+                            <video autoplay controls
+                                src="./img/Homepage_Gameplay-Trailer_MC-Dungeons_1080x720.webm"></video>
+                            <p>Explore your own unique worlds, survive the night, and create anything you can
+                                imagine!
+                            </p>
+                            <p>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to
+                                see
+                                the full video on YouTube.</p>
+                            <div class="button-byy">
+                                <button class="getmc">
+                                    <span class="links-byy">GET MINECRAFT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-menu">
+        <h2>NEWEST</h2>
+        <div class="row-pc">
+            <ul class="pic-list">
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="./img/New folder/1.21.6_277x277.avif" alt="">
+                        <div class="menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Minecraft Java Edition 1.21.6</h3>
+                            <p>The Chase the Skies Drop Now Out for Java</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/marketplace/Minecraft_SummerSale_Net_277x277.jpeg"
+                            alt="">
+                        <div class="menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Summer Sale 2025</h3>
+                            <p>An ode to vacay offers</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Dennis_painting_277x277.jpg"
+                            alt="">
+                        <div class="menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Minecraft Java Edition 1.21.7</h3>
+                            <p>Minecraft Java 1.21.7 Released</p>
+                        </div>
+
+                    </a>
+
+                </li>
+
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/marketplace/Marketplace_DotNet_277x277_MPPJULY.jpg"
+                            alt="">
+                        <div class="menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Marketplace Content:July 2025</h3>
+                            <p>Summer is here with this month’s Marketplace Pass and Realms Plus</p>
+                        </div>
+
+
+                    </a>
+
+                </li>
+
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/MCV_FA25_July1_01_EditorialExclusive_A_277x277.png"
+                            alt="">
+                        <div class="menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">A new friend with a familiar patina</h3>
+                            <p>Test the copper golem, chest, items, and armor</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/BaBWGreen277.jpg"
+                            alt="">
+                        <div class="menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Keeping the world green</h3>
+                            <p>How Mojang contributes to a more sustainable world</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/preview_r21u10_4_277x277.jpg"
+                            alt="">
+                        <div class=" menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Minecraft Preview 1.21.100.23</h3>
+                            <p>A Minecraft: Bedrock Edition Preview</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/marketplace/Dwellers2_Tile277x277.jpg"
+                            alt="">
+                        <div class=" menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">LET’S PLAY: DWELLERS 2.0</h3>
+                            <p>Will this horror add-on be too scary for us? (yes)</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/merch/SummerGiftGuide2025_Tile_277x277.jpg"
+                            alt="">
+                        <div class=" menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Summer Gift Guide</h3>
+                            <p>Sunny presents for a sunny summer</p>
+                        </div>
+
+                    </a>
+
+                </li>
+                <li class="pic-game">
+                    <a class="links-menu" href="#">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/bookandquill-1x1.jpg"
+                            alt="">
+                        <div class=" menu-pic">
+                            <div class="pic-news">News</div>
+                            <h3 class="version-mc">Taking Inventory: Book and Quill</h3>
+                            <p>The pen is mightier than the sword!</p>
+                        </div>
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-content">
+                <h3 style="color: aliceblue;">Contact Us</h3>
+                <p style="color: aliceblue;">Email:Info@example.com</p>
+                <p style="color: aliceblue;">Phone:+121 56556 565556</p>
+                <p style="color: aliceblue;">Address:Your Address 123 street</p>
+            </div>
+            <div class="footer-content">
+                <h3 style="color: aliceblue;">Quick Links</h3>
+                <ul class="list">
+                    <li><a class="foot" href="">Home</a></li>
+                    <li><a class="foot" href="">About</a></li>
+                    <li><a class="foot" href="">Services</a></li>
+                    <li><a class="foot" href="">Products</a></li>
+                    <li><a class="foot" href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 style="color: aliceblue;">Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a class="foot" href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="foot" href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="foot" href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="foot" href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2025 your company . All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
