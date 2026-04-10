@@ -421,6 +421,18 @@ footer{
          
         top: 500px;
     }
+
+
+     .contact li{
+    text-align:start;
+        
+ }
+    .contact{
+        padding: 0px;
+        width: auto;
+        justify-self: center;
+        
+    }
     .container-fluid{
         width: 1140px;
         margin: auto;
@@ -658,4 +670,26 @@ footer{
         display: block;
     }
    
+}
+
+@media (max-width: 426px) {
+    .contact li{
+         text-align: center;
+        
+        
+        justify-self: center;
+        
+    }
+    .contact{
+        padding: 0px;
+        width: auto;
+        
+    }
+     .container-fluid{
+        display: inline-block;
+        justify-items: center;
+    }
+}
+li{
+    list-style: none;
 }

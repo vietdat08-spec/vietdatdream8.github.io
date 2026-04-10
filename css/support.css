@@ -138,7 +138,7 @@ footer{
         top: 700px;
     }
     .container-fluid{
-        width: 1140px;
+        width: 100%;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -223,3 +223,36 @@ footer{
     .list li a{
         color: white;
     }
+
+ .contact li{
+    text-align:start;
+        
+ }
+    .contact{
+        padding: 0px;
+        width: auto;
+        justify-self: center;
+        
+    }
+
+    @media (max-width: 426px) {
+    .contact li{
+        
+         text-align: center;
+        
+        justify-self: center;
+        
+    }
+    .contact{
+        padding: 0px;
+        width: auto;
+        
+    }
+     .container-fluid{
+        display: inline-block;
+        justify-items: center;
+    }
+}
+li{
+    list-style: none;
+}

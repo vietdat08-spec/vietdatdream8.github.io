@@ -507,8 +507,20 @@ footer{
          
         
     }
+
+
+     .contact li{
+    text-align:start;
+        
+ }
+    .contact{
+        padding: 0px;
+        width: auto;
+        justify-self: center;
+        
+    }
     .container-fluid{
-        width: 1140px;
+        width: 100%;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -593,3 +605,32 @@ footer{
     .list li a{
         color: white;
     }
+
+
+
+    @media (max-width: 426px) {
+    .contact li{
+        
+         text-align: center;
+        
+        justify-self: center;
+        
+    }
+    .contact{
+        padding: 0px;
+        width: auto;
+        
+    }
+     .container-fluid{
+        display: inline-block;
+        justify-items: center;
+    }
+}
+li{
+    list-style: none;
+}
+@media (max-width: 1020px){
+    .card-link{
+    width: 300px;
+   }
+}
